@@ -1,40 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Nomear palavras chave -->
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="stylesheet" href="style.css">
-    <link rel="script" href="style.css">
-
-    <title>Nuances Tantra</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="keywords" content="HTML, CSS, JavaScript" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Nuances Tantra</title>
 </head>
-
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/LogoNuances.png" alt="Logo Nuances">
-                <div class="brand">
-                    <h1>Nuances</h1>
-                    <span>Tantra</span>
-                </div>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Estúdio</a></li>
-                <li><a href="#">Filosofia</a></li>
-                <li><a href="#">RASSAMA Massagem</a></li>
-                <li><a href="#">Massagens</a></li>
-                <li><a href="#">Depoimentos</a></li>
-            </ul>
-        </nav>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/LogoNuances.png" alt="Logo Nuances" />
+        <div class="brand">
+          <h1>Nuances</h1>
+          <span>Tantra</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Estúdio</a></li>
+        <li><a href="#">Filosofia</a></li>
+        <li><a href="#">RASSAMA Massagem</a></li>
+        <li><a href="#">Massagens</a></li>
+        <li><a href="#">Depoimentos</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <div class="wave-container">
+    <svg class="wave-inverted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#fff0f5" fill-opacity="1"
+        d="M0,160L21.8,138.7C43.6,117,87,75,131,64C174.5,53,218,75,262,117.3C305.5,160,349,224,393,250.7C436.4,277,480,267,524,229.3C567.3,192,611,128,655,122.7C698.2,117,742,171,785,176C829.1,181,873,139,916,112C960,85,1004,75,1047,96C1090.9,117,1135,171,1178,197.3C1221.8,224,1265,224,1309,234.7C1352.7,245,1396,267,1418,277.3L1440,288L1440,320L0,320Z" />
+    </svg>
+  </div>
 
-    </header>
+  <section class="info-above">
+    <h2>Informações acima</h2>
+    <p>Aqui vão os textos, imagens ou o que precisar.</p>
+  </section>
 
+  <!-- Seção de Tipos de Massagem com ondas -->
+  <section class="massage-types-section">
+    <svg class="wave wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#fee2eb" fill-opacity="1"
+        d="M0,64L18.5,85.3C36.9,107,74,149,111,181.3C147.7,213,185,235,222,229.3C258.5,224,295,192,332,165.3C369.2,139,406,117,443,138.7C480,160,517,224,554,213.3C590.8,203,628,117,665,90.7C701.5,64,738,96,775,122.7C812.3,149,849,171,886,181.3C923.1,192,960,192,997,197.3C1033.8,203,1071,213,1108,213.3C1144.6,213,1182,203,1218,176C1255.4,149,1292,107,1329,96C1366.2,85,1403,107,1422,117.3L1440,128L1440,320L0,320Z">
+      </path>
+    </svg>
 
+    <div class="background-pink"></div>
+
+    <div class="content">
+      <h2>Tipos de Massagem</h2>
+      <p>Conheça as diferentes massagens que oferecemos em nosso espaço.</p>
+    </div>
+
+    <svg class="wave wave-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#fee2eb" fill-opacity="1"
+        d="M0,64L18.5,85.3C36.9,107,74,149,111,181.3C147.7,213,185,235,222,229.3C258.5,224,295,192,332,165.3C369.2,139,406,117,443,138.7C480,160,517,224,554,213.3C590.8,203,628,117,665,90.7C701.5,64,738,96,775,122.7C812.3,149,849,171,886,181.3C923.1,192,960,192,997,197.3C1033.8,203,1071,213,1108,213.3C1144.6,213,1182,203,1218,176C1255.4,149,1292,107,1329,96C1366.2,85,1403,107,1422,117.3L1440,128L1440,0L0,0Z">
+      </path>
+    </svg>
+  </section>
+
+  <!-- Seção de Informações com Mapa -->
+  <section class="info-section">
+    <div class="wave wave-top-info">
+      <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#fee4ff" fill-opacity="1"
+          d="M0,224L60,229.3C120,235,240,245,360,229.3C480,213,600,171,720,176C840,181,960,235,1080,245.3C1200,256,1320,224,1380,208L1440,192L1440,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+
+    <div class="info-content">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3836.1902602911444!2d-47.79299892486785!3d-15.650854085041634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a309e4f1c0253%3A0xf491b19fd5ff24b0!2sSobradinho%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1717787722450!5m2!1spt-BR!2sbr"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="info-text">
+        <h2>Localização em Sobradinho - Brasília, DF</h2>
+        <p>Nosso estúdio de massagem proporciona tranquilidade, bem-estar e fácil acesso para você relaxar e se cuidar.</p>
+      </div>
+    </div>
+
+    <div class="wave wave-bottom-info">
+      <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#fee4ff" fill-opacity="1"
+          d="M0,224L60,229.3C120,235,240,245,360,229.3C480,213,600,171,720,176C840,181,960,235,1080,245.3C1200,256,1320,224,1380,208L1440,192L1440,0L0,0Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Seção de Depoimentos -->
+<section class="testimonials-section">
+  <h2>O que nossos clientes dizem</h2>
+  <div class="testimonials">
+    <!-- Cliente 1 -->
+    <div class="testimonial">
+      <img src="img/homem-placeholder1.jpg" alt="Cliente 1" />
+      <p class="stars">★★★★★</p>
+      <p class="text">"A massagem foi incrível! Saí completamente renovado e com a mente leve. Super recomendo!"</p>
+    </div>
+
+    <!-- Cliente 2 -->
+    <div class="testimonial">
+      <img src="img/homem-placeholder2.jpg" alt="Cliente 2" />
+      <p class="stars">★★★★★</p>
+      <p class="text">"Um ambiente acolhedor e profissionais excepcionais. Me senti cuidado em cada detalhe."</p>
+    </div>
+
+    <!-- Cliente 3 -->
+    <div class="testimonial">
+      <img src="img/homem-placeholder3.jpg" alt="Cliente 3" />
+      <p class="stars">★★★★★</p>
+      <p class="text">"Experiência maravilhosa! O toque certo, o clima perfeito. Voltarei sempre que puder."</p>
+    </div>
+  </div>
+</section>
+
+<!-- Rodapé -->
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <img src="img/LogoNuances.png" alt="Logo Nuances Tantra" />
+      <span class="footer-name">Nuances <strong>TANTRA</strong></span>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://wa.me/seunumerodowhatsapp" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Nuances Tantra. Todos os direitos reservados.</p>
+  </div>
+</footer>
 </body>
-
 </html>
